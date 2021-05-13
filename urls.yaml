@@ -1,0 +1,10 @@
+air_user : "username"
+air_pass : "password"
+air_submit : ".submit > input:nth-child(1)"
+air_path_name : '//span[@id="hostname"]'
+air_path_speed : '//span[@class = "value" and contains(., "Mbps") and position() = 2]'
+RP_user: "loginform-username"
+RP_pass: "loginform-password"
+RP_submit: ".loginform-submit"
+RP_path_name: '//div[@class="devName truncate"]'
+RP_path_speed: '//div[@class="propertyRowValue truncate" and contains(.,"Mbps")]'
